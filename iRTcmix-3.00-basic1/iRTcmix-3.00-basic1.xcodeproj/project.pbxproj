@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A21AC2411D3EB14000DC7E54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A21AC2401D3EB14000DC7E54 /* main.m */; };
+		A21AC2441D3EB14000DC7E54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A21AC2431D3EB14000DC7E54 /* AppDelegate.m */; };
+		A21AC2471D3EB14000DC7E54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21AC2461D3EB14000DC7E54 /* ViewController.m */; };
+		A21AC24A1D3EB14100DC7E54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21AC2481D3EB14000DC7E54 /* Main.storyboard */; };
+		A21AC24C1D3EB14100DC7E54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21AC24B1D3EB14100DC7E54 /* Assets.xcassets */; };
+		A21AC24F1D3EB14100DC7E54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21AC24D1D3EB14100DC7E54 /* LaunchScreen.storyboard */; };
+		A21AC25A1D3EB19500DC7E54 /* libiRTCMIX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A21AC2571D3EB19500DC7E54 /* libiRTCMIX.a */; };
+		A21AC25B1D3EB19500DC7E54 /* RTcmixPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A21AC2591D3EB19500DC7E54 /* RTcmixPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A21AC23C1D3EB14000DC7E54 /* iRTcmix-3.00-basic1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iRTcmix-3.00-basic1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21AC2401D3EB14000DC7E54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A21AC2421D3EB14000DC7E54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A21AC2431D3EB14000DC7E54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A21AC2451D3EB14000DC7E54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A21AC2461D3EB14000DC7E54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A21AC2491D3EB14100DC7E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A21AC24B1D3EB14100DC7E54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A21AC24E1D3EB14100DC7E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A21AC2501D3EB14100DC7E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21AC2571D3EB19500DC7E54 /* libiRTCMIX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libiRTCMIX.a; sourceTree = "<group>"; };
+		A21AC2581D3EB19500DC7E54 /* RTcmixPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTcmixPlayer.h; sourceTree = "<group>"; };
+		A21AC2591D3EB19500DC7E54 /* RTcmixPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTcmixPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A21AC2391D3EB14000DC7E54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21AC25A1D3EB19500DC7E54 /* libiRTCMIX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A21AC2331D3EB14000DC7E54 = {
+			isa = PBXGroup;
+			children = (
+				A21AC23E1D3EB14000DC7E54 /* iRTcmix-3.00-basic1 */,
+				A21AC23D1D3EB14000DC7E54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A21AC23D1D3EB14000DC7E54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A21AC23C1D3EB14000DC7E54 /* iRTcmix-3.00-basic1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A21AC23E1D3EB14000DC7E54 /* iRTcmix-3.00-basic1 */ = {
+			isa = PBXGroup;
+			children = (
+				A21AC2421D3EB14000DC7E54 /* AppDelegate.h */,
+				A21AC2431D3EB14000DC7E54 /* AppDelegate.m */,
+				A21AC2451D3EB14000DC7E54 /* ViewController.h */,
+				A21AC2461D3EB14000DC7E54 /* ViewController.m */,
+				A21AC2481D3EB14000DC7E54 /* Main.storyboard */,
+				A21AC24B1D3EB14100DC7E54 /* Assets.xcassets */,
+				A21AC24D1D3EB14100DC7E54 /* LaunchScreen.storyboard */,
+				A21AC2501D3EB14100DC7E54 /* Info.plist */,
+				A21AC23F1D3EB14000DC7E54 /* Supporting Files */,
+			);
+			path = "iRTcmix-3.00-basic1";
+			sourceTree = "<group>";
+		};
+		A21AC23F1D3EB14000DC7E54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A21AC2561D3EB19500DC7E54 /* RTcmix */,
+				A21AC2401D3EB14000DC7E54 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A21AC2561D3EB19500DC7E54 /* RTcmix */ = {
+			isa = PBXGroup;
+			children = (
+				A21AC2571D3EB19500DC7E54 /* libiRTCMIX.a */,
+				A21AC2581D3EB19500DC7E54 /* RTcmixPlayer.h */,
+				A21AC2591D3EB19500DC7E54 /* RTcmixPlayer.m */,
+			);
+			path = RTcmix;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A21AC23B1D3EB14000DC7E54 /* iRTcmix-3.00-basic1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21AC2531D3EB14100DC7E54 /* Build configuration list for PBXNativeTarget "iRTcmix-3.00-basic1" */;
+			buildPhases = (
+				A21AC2381D3EB14000DC7E54 /* Sources */,
+				A21AC2391D3EB14000DC7E54 /* Frameworks */,
+				A21AC23A1D3EB14000DC7E54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iRTcmix-3.00-basic1";
+			productName = "iRTcmix-3.00-basic1";
+			productReference = A21AC23C1D3EB14000DC7E54 /* iRTcmix-3.00-basic1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A21AC2341D3EB14000DC7E54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Brad Garton";
+				TargetAttributes = {
+					A21AC23B1D3EB14000DC7E54 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5N3S7Y9CUF;
+					};
+				};
+			};
+			buildConfigurationList = A21AC2371D3EB14000DC7E54 /* Build configuration list for PBXProject "iRTcmix-3.00-basic1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A21AC2331D3EB14000DC7E54;
+			productRefGroup = A21AC23D1D3EB14000DC7E54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A21AC23B1D3EB14000DC7E54 /* iRTcmix-3.00-basic1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A21AC23A1D3EB14000DC7E54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21AC24F1D3EB14100DC7E54 /* LaunchScreen.storyboard in Resources */,
+				A21AC24C1D3EB14100DC7E54 /* Assets.xcassets in Resources */,
+				A21AC24A1D3EB14100DC7E54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A21AC2381D3EB14000DC7E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21AC2471D3EB14000DC7E54 /* ViewController.m in Sources */,
+				A21AC25B1D3EB19500DC7E54 /* RTcmixPlayer.m in Sources */,
+				A21AC2441D3EB14000DC7E54 /* AppDelegate.m in Sources */,
+				A21AC2411D3EB14000DC7E54 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A21AC2481D3EB14000DC7E54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A21AC2491D3EB14100DC7E54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A21AC24D1D3EB14100DC7E54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A21AC24E1D3EB14100DC7E54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A21AC2511D3EB14100DC7E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A21AC2521D3EB14100DC7E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A21AC2541D3EB14100DC7E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "iRTcmix-3.00-basic1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iRTcmix-3.00-basic1/RTcmix",
+				);
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bgg.iRTcmix.iRTcmix-3-00-basic1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A21AC2551D3EB14100DC7E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "iRTcmix-3.00-basic1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iRTcmix-3.00-basic1/RTcmix",
+				);
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bgg.iRTcmix.iRTcmix-3-00-basic1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A21AC2371D3EB14000DC7E54 /* Build configuration list for PBXProject "iRTcmix-3.00-basic1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21AC2511D3EB14100DC7E54 /* Debug */,
+				A21AC2521D3EB14100DC7E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21AC2531D3EB14100DC7E54 /* Build configuration list for PBXNativeTarget "iRTcmix-3.00-basic1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21AC2541D3EB14100DC7E54 /* Debug */,
+				A21AC2551D3EB14100DC7E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A21AC2341D3EB14000DC7E54 /* Project object */;
+}
